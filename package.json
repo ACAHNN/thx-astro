@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@aws-amplify/predictions": "latest",
+    "@aws-sdk/eventstream-marshaller": "latest",
     "aws-sdk": "latest",
     "@astrojs/netlify": "3.0.4",
     "@astrojs/mdx": "^1.0.2",

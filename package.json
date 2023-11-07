@@ -10,6 +10,8 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@aws-amplify": "latest",
+    "@aws-sdk": "latest",
     "@astrojs/netlify": "3.0.4",
     "@astrojs/mdx": "^1.0.2",
     "@astrojs/node": "^6.0.3",

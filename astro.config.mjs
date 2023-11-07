@@ -2,14 +2,14 @@ import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import react from "@astrojs/react";
-import node from '@astrojs/node';
+import netlify from '@astrojs/netlify';
 
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://dev.dn5wgolgh0vq9.amplifyapp.com", //TODO: Change this to redirect properly
   output: "server",
-  adapter: node({
+  adapter: netlify({
     mode: 'standalone'
   }),
   integrations: [mdx(), sitemap(), react()],
